@@ -45,7 +45,7 @@ class OverviewCard extends Component{
                         <h6>{displayName}</h6>
                     </div>
                     <div className="social-media-img">
-                        <img src={this.props.data.imgSrc}></img>
+                        <img alt="social-media-img" src={this.props.data.imgSrc}></img>
                     </div>
                 </div>
                 <div className="overview-insights">
