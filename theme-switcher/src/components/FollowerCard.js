@@ -8,7 +8,7 @@ class FollowerCard extends Component{
             <div className="card-container">
                 <div className="social-media">
                     <div className="social-media-img">
-                        <img src={this.props.data.imgSrc}></img>
+                        <img alt="social-media-img" src={this.props.data.imgSrc}></img>
                     </div>
                     <div className="social-media-handle">
                         <h6>{this.props.data.handle}</h6>

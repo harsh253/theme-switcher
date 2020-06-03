@@ -407,6 +407,9 @@ input[type="checkbox"]:checked + .switch::after{
 }
 
 @media screen and (max-width: 640px){
+  h6{
+    font-size: 12px;
+  }
 
   .header{
     display: block;
